@@ -113,7 +113,6 @@ const Contact: React.FC = () => {
             onHoverStart={() => setIsHovered(prev => ({ ...prev, contactCard: true }))}
             onHoverEnd={() => setIsHovered(prev => ({ ...prev, contactCard: false }))}
             className="bg-black rounded-xl p-8 shadow-2xl overflow-hidden border-2 border-[#00ff88]"
-            whileHover={{ boxShadow: '0 0 20px #00ff88', scale: 1.05, rotate: 5 }}
           >
             <motion.div 
               className="absolute inset-0 rounded-2xl blur-3xl -z-10"
@@ -159,7 +158,6 @@ const Contact: React.FC = () => {
             onHoverStart={() => setIsHovered(prev => ({ ...prev, formCard: true }))}
             onHoverEnd={() => setIsHovered(prev => ({ ...prev, formCard: false }))}
             className="bg-black rounded-xl p-8 shadow-2xl overflow-hidden border-2 border-[#00ff88]"
-            whileHover={{ boxShadow: '0 0 20px #00ff88', scale: 1.05, rotate: 5 }}
           >
             <motion.div 
               className="absolute inset-0 rounded-2xl blur-3xl -z-10"
